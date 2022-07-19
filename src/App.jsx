@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+// components
+import SignUpForm from "./components/SignUpForm";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App ">
-      <p className='text-3xl font-bold underline'>
-
-        selamlar
-      </p>
+    <div className="App flex flex-col items-center justify-center">
+      <div className="container max-w-4xl">
+        <SignUpForm />
+      </div>
     </div>
   )
 }
