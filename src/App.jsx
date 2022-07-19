@@ -6,7 +6,7 @@ import "./App.css"
 function App() {
 
   return (
-    <div className="App flex flex-col items-center justify-center bg-emerald-100">
+    <div className="App flex flex-col items-center justify-center bg-emerald-50">
       <div className="container max-w-4xl">
         <SignUpForm />
       </div>
